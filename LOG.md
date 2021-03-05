@@ -4,3 +4,4 @@
 - [Day 2](logs/day2.md)
 - [Day 3](logs/day3.md)
 - [Day 4](logs/day4.md)
+- [Day 5](logs/day5.md)

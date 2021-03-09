@@ -8,3 +8,4 @@
 - [Day 6](logs/day6.md)
 - [Day 7](logs/day7.md)
 - [Day 8](logs/day8.md)
+- [Day 9](logs/day9.md)

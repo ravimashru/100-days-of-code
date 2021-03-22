@@ -1,6 +1,6 @@
 # Day 12
 
-**Problem**: [(Leetcode) 322. Coin Change](https://leetcode.com/problems/coin-change/)
+**Problem**: [(Leetcode) 322. Coin Change](https://leetcode.com/problems/coin-change/)  
 **Difficulty**: Medium
 
 ---

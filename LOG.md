@@ -13,3 +13,4 @@
 - [Day 11](logs/day11.md)
 - [Day 12](logs/day12.md)
 - [Day 13](logs/day13.md)
+- [Day 14](logs/day14.md)

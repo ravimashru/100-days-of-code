@@ -17,3 +17,4 @@
 - [Day 15](logs/day15.md)
 - [Day 16](logs/day16.md)
 - [Day 17](logs/day17.md)
+- [Day 18](logs/day18.md)

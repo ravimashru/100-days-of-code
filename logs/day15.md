@@ -1,4 +1,4 @@
-# Day 13
+# Day 15
 
 **Problem**: [(Leetcode) 15. 3Sum](https://leetcode.com/problems/3sum/)  
 **Difficulty**: Medium

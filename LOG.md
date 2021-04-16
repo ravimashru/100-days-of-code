@@ -21,3 +21,4 @@
 - [Day 19](logs/day19.md)
 - [Day 20](logs/day20.md)
 - [Day 21](logs/day21.md)
+- [Day 22](logs/day22.md)

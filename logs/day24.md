@@ -1,4 +1,4 @@
-# Day 23
+# Day 24
 
 **Problem**: [(Leetcode) 17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)  
 **Difficulty**: Medium

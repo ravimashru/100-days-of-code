@@ -26,3 +26,4 @@
 - [Day 24](logs/day24.md)
 - [Day 25](logs/day25.md)
 - [Day 26](logs/day26.md)
+- [Day 27](logs/day27.md)

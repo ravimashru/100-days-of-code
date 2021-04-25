@@ -30,3 +30,4 @@
 - [Day 28](logs/day28.md)
 - [Day 29](logs/day29.md)
 - [Day 30](logs/day30.md)
+- [Day 31](logs/day31.md)

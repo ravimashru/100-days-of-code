@@ -36,3 +36,4 @@
 - [Day 34](logs/day34.md)
 - [Day 35](logs/day35.md)
 - [Day 36](logs/day36.md)
+- [Day 37](logs/day37.md)

@@ -41,3 +41,4 @@
 - [Day 39](logs/day39.md)
 - [Day 40](logs/day40.md)
 - [Day 41](logs/day41.md)
+- [Day 42](logs/day42.md)

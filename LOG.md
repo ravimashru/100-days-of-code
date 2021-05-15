@@ -47,3 +47,4 @@
 - [Day 45](logs/day45.md)
 - [Day 46](logs/day46.md)
 - [Day 47](logs/day47.md)
+- [Day 48](logs/day48.md)

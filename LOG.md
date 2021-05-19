@@ -51,3 +51,4 @@
 - [Day 49](logs/day49.md)
 - [Day 50](logs/day50.md)
 - [Day 51](logs/day51.md)
+- [Day 52](logs/day52.md)

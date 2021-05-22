@@ -3,6 +3,8 @@
 **Problem**: [(Leetcode) 692. Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)  
 **Difficulty**: Medium
 
+**Similar**: [Day 54](day54.md)
+
 ---
 
 **Solution**: [JavaScript](../solutions/top-k-frequent-words.js)

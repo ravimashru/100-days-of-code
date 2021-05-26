@@ -57,4 +57,5 @@
 - [Day 55](logs/day55.md)
 - [Day 56](logs/day56.md)
 - [Day 57](logs/day57.md)
+- [Day 58](logs/day58.md)
 

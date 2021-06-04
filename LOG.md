@@ -63,4 +63,5 @@
 - [Day 61](logs/day61.md)
 - [Day 62](logs/day62.md)
 - [Day 63](logs/day63.md)
+- [Day 64, 65, 66](logs/day64_65_66.md)
 

@@ -68,4 +68,5 @@
 - [Day 68](logs/day68.md)
 - [Day 69](logs/day69.md)
 - [Day 70](logs/day70.md)
+- [Day 71](logs/day71.md)
 

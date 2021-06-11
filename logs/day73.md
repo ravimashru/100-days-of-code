@@ -1,4 +1,4 @@
-# Day 72
+# Day 73
 
 ## Implementing a Hash Set in JavaScript
 

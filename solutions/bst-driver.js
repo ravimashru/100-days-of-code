@@ -7,5 +7,11 @@ tree.insert(2);
 tree.insert(2);
 tree.insert(9);
 
-tree.printInOrder();
+tree.delete(2);
+tree.delete(11);
+tree.delete(8);
 
+tree.insert(8);
+tree.insert(2);
+
+tree.printInOrder();

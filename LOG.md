@@ -72,3 +72,5 @@
 - [Day 72](logs/day72.md)
 - [Day 73](logs/day73.md)
 - [Day 74](logs/day74.md)
+- [Day 75](logs/day75.md)
+- [Day 76](logs/day76.md)

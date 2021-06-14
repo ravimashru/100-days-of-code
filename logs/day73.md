@@ -1,6 +1,6 @@
 # Day 73
 
-## Implementing a Hash Set in JavaScript
+## Implementing a Hash Map in JavaScript
 
 ```javascript
 /**

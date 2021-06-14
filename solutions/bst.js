@@ -49,7 +49,7 @@ module.exports = class BSTNode {
         } else {
           parent.right = null;
         }
-      } else if (this.left !== null & this.right === null) {
+      } else if (this.left !== null && this.right === null) {
         let par = this;
         let temp = this.left;
         while (temp.right) {

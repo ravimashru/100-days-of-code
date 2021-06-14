@@ -19,7 +19,7 @@ module.exports = class BSTNode {
         this.right.insert(value);
       }
     }
-  }
+  };
 
   contains = (value) => {
     if (value === this.data) {
@@ -37,12 +37,10 @@ module.exports = class BSTNode {
         return this.right.contains(value);
       }
     }
-  }
+  };
 
   delete = (value, parent = this) => {
-
     if (this.data === value) {
-
       if (this.left === null && this.right === null) {
         if (this === parent.left) {
           parent.left = null;
@@ -50,37 +48,21 @@ module.exports = class BSTNode {
           parent.right = null;
         }
       } else if (this.left !== null && this.right === null) {
-        let par = this;
-        let temp = this.left;
-        while (temp.right) {
-          par = temp;
-          temp = temp.right;
-        }
-        this.data = temp.data;
-        if (temp.left) {
-          par.right = temp.left;
-        } else if (par.left === temp) {
-          par.left = null;
+        if (this === parent.left) {
+          parent.left = this.left;
         } else {
-          par.right = null;
+          parent.right = this.left;
+        }
+      } else if (this.left === null && this.right !== null) {
+        if (this === parent.left) {
+          parent.left = this.right;
+        } else {
+          parent.right = this.right;
         }
       } else {
-        let par = this;
-        let temp = this.right;
-        while (temp.left) {
-          par = temp;
-          temp = temp.left
-        }
-        this.data = temp.data;
-        if (temp.right) {
-          par.left = temp.right
-        } else if (par.left === temp) {
-          par.left = null;
-        } else {
-          par.right = null;
-        }
+        this.data = this.right.getMinValue();
+        this.right.delete(this.data, this);
       }
-
     } else if (value < this.data) {
       if (this.left !== null) {
         return this.left.delete(value, this);
@@ -94,16 +76,52 @@ module.exports = class BSTNode {
         return false;
       }
     }
+  };
 
-  }
+  getMinValue = () => {
+    if (this.left) {
+      return this.left.getMinValue();
+    }
+    return this.data;
+  };
 
   printInOrder = () => {
+    console.log(this.getNodesInOrder());
+  };
+
+  getNodesInOrder = () => {
+    const res = [];
     if (this.left !== null) {
-      this.left.printInOrder();
+      res.push(...this.left.getNodesInOrder());
     }
-    console.log(this.data);
+    res.push(this.data);
     if (this.right !== null) {
-      this.right.printInOrder();
+      res.push(...this.right.getNodesInOrder());
     }
-  }
+    return res;
+  };
+
+  getNodesPreOrder = () => {
+    const res = [this.data];
+    if (this.left !== null) {
+      res.push(...this.left.getNodesPreOrder());
+    }
+    if (this.right !== null) {
+      res.push(...this.right.getNodesPreOrder());
+    }
+    return res;
+  };
+
+  getNodesPostOrder = () => {
+    const res = [];
+    if (this.left !== null) {
+      res.push(...this.left.getNodesPostOrder());
+    }
+    if (this.right !== null) {
+      res.push(...this.right.getNodesPostOrder());
+    }
+    res.push(this.data);
+    return res;
+  };
+
 };

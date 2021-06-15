@@ -67,10 +67,7 @@ MyCircularQueue.prototype.isEmpty = function () {
  * @return {boolean}
  */
 MyCircularQueue.prototype.isFull = function () {
-  return (
-    (this.front === 0 && this.back === this.size - 1) ||
-    this.back === this.front - 1
-  );
+  return (this.back + 1) % this.size === this.front;
 };
 
 /**

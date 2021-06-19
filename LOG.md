@@ -79,3 +79,4 @@
 - [Day 79](logs/day79.md)
 - [Day 80](logs/day80.md)
 - [Day 81](logs/day81.md)
+- [Day 82](logs/day82.md)

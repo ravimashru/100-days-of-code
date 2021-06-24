@@ -6,4 +6,3 @@
 ---
 
 **Solution**: [JavaScript](../solutions/course-schedule-ii.js)
-

@@ -5,7 +5,7 @@
 
 ---
 
-**Solution 1**: [JavaScript (Top-down)](../solutions/redundant-connection.js)
+**Solution**: [JavaScript](../solutions/redundant-connection.js)
 
 **Time complexity**: O(E) since we traverse all edges in the graph by depth-first traversal.
 

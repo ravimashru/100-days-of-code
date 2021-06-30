@@ -90,3 +90,4 @@
 - [Day 90](logs/day90.md)
 - [Day 91](logs/day91.md)
 - [Day 92](logs/day92.md)
+- [Day 93](logs/day93.md)

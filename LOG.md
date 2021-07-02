@@ -92,3 +92,4 @@
 - [Day 92](logs/day92.md)
 - [Day 93](logs/day93.md)
 - [Day 94](logs/day94.md)
+- [Day 95](logs/day95.md)

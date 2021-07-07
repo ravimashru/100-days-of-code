@@ -97,3 +97,4 @@
 - [Day 97](logs/day97.md)
 - [Day 98](logs/day98.md)
 - [Day 99](logs/day99.md)
+- [Day 100](logs/day100.md)
